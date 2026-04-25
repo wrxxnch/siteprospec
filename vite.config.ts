@@ -18,6 +18,7 @@ export default defineConfig(({mode}) => {
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
       // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
+      allowedHosts:3000-iifm8eqrs8tyb7mqo6365-7296f0f3.us2.manus.computer,
       hmr: process.env.DISABLE_HMR !== 'true',
     },
   };
